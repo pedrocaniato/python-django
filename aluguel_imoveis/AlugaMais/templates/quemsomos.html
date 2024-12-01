@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlugaMais - Sobre Nós</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+    <!-- Estilos Personalizados -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+
+        .sobre-container {
+            padding: 50px 15px;
+            max-width: 1000px;
+            margin: auto;
+            text-align: center; /* Centraliza todo o conteúdo */
+        }
+
+        .sobre-container h2 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+
+        .sobre-container p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        .sobre-container img {
+            max-width: 80%;
+            margin: 20px auto;
+            display: block;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 1rem 1rem;
+            background-color: rgba(0, 0, 0, 0.6);
+            z-index: 2;
+        }
+
+        .navbar-brand {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #fff;
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-brand img {
+            height: 40px; /* Altura da logo */
+            margin-right: 10px; /* Espaço entre logo e texto */
+        }
+
+        .navbar-nav .nav-link {
+            font-size: 1.1rem;
+            padding: 0.5rem 1rem;
+            color: #fff;
+        }
+
+        .navbar-nav .nav-link:hover {
+            background-color: #1a2d3d;
+            border-radius: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .sobre-container h2 {
+                font-size: 2rem;
+            }
+
+            .sobre-container p {
+                font-size: 1rem;
+            }
+
+            .sobre-container img {
+                max-width: 100%;
+            }
+        }
+
+        footer {
+            background-color: #1a2d3d;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .navbar-brand {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #fff;
+            display: flex;
+            align-items: center;
+        }
+
+
+        footer a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://cdn-icons-png.flaticon.com/128/44/44300.png" alt="Logo AlugaMais"> AlugaMais
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/corretores/">Corretores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/sobre-nos/">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/imoveis/">Locais Disponíveis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contato/">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Conteúdo Sobre Nós -->
+    <div class="sobre-container">
+        <h2>Sobre Nós</h2>
+        <p>
+            A <strong>AlugaMais</strong> é uma plataforma inovadora que conecta proprietários e clientes em busca de imóveis ideais para locação.
+            Nosso objetivo é simplificar o processo de aluguel, oferecendo ferramentas práticas e um serviço seguro para todos os envolvidos.
+        </p>
+        <img src="https://palestrasdesucesso.com.br/wp-content/uploads/2024/04/palestra-trabalho-em-equipe-700x400.webp" alt="Equipe trabalhando">
+        <p>
+            Fundada em 2024, nossa missão é transformar o mercado imobiliário, tornando-o mais acessível e eficiente. 
+            Acreditamos que encontrar o imóvel perfeito deve ser uma experiência descomplicada e agradável.
+        </p>
+        <p>
+            Nossa equipe é composta por profissionais altamente qualificados, comprometidos em oferecer um serviço de excelência.
+            Trabalhamos com tecnologia de ponta para garantir que proprietários e inquilinos tenham uma experiência única e descomplicada.
+        </p>
+        <p>
+            Estamos constantemente inovando para atender às necessidades do mercado. Desde imóveis residenciais até comerciais,
+            oferecemos uma ampla gama de opções para que nossos clientes encontrem exatamente o que precisam.
+        </p>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 AlugaMais. Todos os direitos reservados.</p>
+        <a href="#">Política de Privacidade</a> | <a href="#">Termos de Serviço</a>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+    
